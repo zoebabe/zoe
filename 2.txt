@@ -1,5 +1,8 @@
 git branch test_1 创建分支
 git checkout test_1 切换分支
-1234567
+git checkout 文件名 还原文件，只能还原工作区的文件至修改前，暂缓区的文件不能还原
 通过ls查看的文件是版本库的所有文件
+git log 查看详细的版本日志
+git log --pretty=oneline简化的版本日志
+git reflog 查看历史版本日志操作
 操作版本库git需要使用身份，先配置用户名和邮箱
